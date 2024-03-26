@@ -24,10 +24,10 @@ struct ContentView: View {
     ContentView()
 }
 
+/// - parameters:
+///     - isFaceUp: determines if card is face up or not
 struct CardView: View {
     
-    /// - parameters:
-    ///     - isFaceUp: whether the card is face up
     var isFaceUp: Bool = false
     
     var body: some View {
